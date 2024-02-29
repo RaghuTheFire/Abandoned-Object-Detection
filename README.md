@@ -39,4 +39,4 @@ specifically aimed at identifying abandoned objects by analyzing changes in vide
 Videos at https://github.com/kevinlin311tw/ABODA
 
 # Compilation Command
-g++ yoloX.cpp -o Aban pkg-config --cflags --libs opencv4
+g++ AbandonedObjTrack.cpp -o Aban pkg-config --cflags --libs opencv4
