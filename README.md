@@ -37,3 +37,6 @@ specifically aimed at identifying abandoned objects by analyzing changes in vide
 
 # Data Set Used for Testing:
 Videos at https://github.com/kevinlin311tw/ABODA
+
+# Compilation Command
+g++ yoloX.cpp -o Aban pkg-config --cflags --libs opencv4
