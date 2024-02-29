@@ -9,9 +9,6 @@ This task is done the followinf steps:-
 3. If an object remains static at one place for a fixed number of frames, then it is declared as an abandoned object
 4. An alarm is raised for an abandoned object .
 
-# Data Set Used for Testing:
-Videos at https://github.com/kevinlin311tw/ABODA
-
 This C++ code is designed to process a video file and detect abandoned objects using OpenCV, a popular computer vision library. 
 Here's a simplified explanation of what each part of the code does: 
 1. **Main Function Setup**: The `main()` function is the entry point of the program. It initializes several variables and objects: 
@@ -37,3 +34,6 @@ the video capture is released, and all created windows are destroyed.
 4. **Program Termination**: The program returns 0, indicating successful execution. 
 This code is a basic example of video processing for object detection and tracking, 
 specifically aimed at identifying abandoned objects by analyzing changes in video frames over time.
+
+# Data Set Used for Testing:
+Videos at https://github.com/kevinlin311tw/ABODA
