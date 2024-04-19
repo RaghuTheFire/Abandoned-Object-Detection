@@ -19,3 +19,9 @@ Here's a breakdown of the code:
 10. The loop continues until the user presses the 'q' key.
 11. Finally, the video capture and writer objects are released, and all windows are closed.
 The code appears to be designed for a specific use case, possibly related to monitoring the presence of people around a bottle or other object of interest.
+
+# Data Set Used for Testing:
+Videos at https://github.com/kevinlin311tw/ABODA
+
+# Compilation Command
+g++ AbandonedObjectDetect.cpp.cpp -o Aban 'pkg-config --cflags --libs opencv4'
