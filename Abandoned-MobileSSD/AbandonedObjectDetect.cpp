@@ -206,7 +206,7 @@ int main()
     imshow("Frame", frame);
     char key = static_cast < char > (waitKey(1));
     if (key == 'q') 
-	{
+    {
       break;
     }
   }
